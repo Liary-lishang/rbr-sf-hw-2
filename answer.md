@@ -1,0 +1,10 @@
+Q1. The working directory is where you edit files on disk; the staging area buffers your curated changes; a commit records those changes locally; and a remote repository hosts them on a server for team collaboration.
+Q2. HEAD points to your current local checkout, main is the local default branch pointer, and origin is the default alias pointing to the remote server URL.
+Q3. Pulling or fetching recent main changes ensures you are writing code on top of the latest updates, which avoids outdated bugs and minimizes future merge conflicts.
+Q4. Fetching only downloads remote history to your computer without changing your workspace, while pulling downloads and immediately merges those remote changes into your active branch.
+Q5. Merging joins branches by creating a combined merge commit that preserves local history, whereas rebasing rewrites history by moving your commits on top of another branch.
+Q6. As they provide a centralized platform interface for team code review, automated tests, and governance before changes are officially merged.
+Q7. As the branches had diverged, requiring a non-fast-forward (three-way) merge to join their separate development paths.
+Q8. As it was edited in a non-overlapping section of the file, whereas @version and loop() caused conflicts because both branches modified the exact same lines of code.
+Q9. Only the workflow configured to trigger on pushes to the ci branch ran, protecting the team by automatically ensuring that new code compiles and passes tests before it can break the shared codebase.
+Q10. It prevents untracked files from being monitored by Git, but it cannot ignore previously committed files because they are already actively tracked in Git's index; .pio is ignored because it contains large, machine-specific build artifacts that should not be shared.
